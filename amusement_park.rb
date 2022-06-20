@@ -20,8 +20,8 @@ class Attendee
   end
 end
 
-attendee = Attendee.new(106)
-attendee.issue_pass!(42)
+attendee = Attendee.new(99)
+attendee.issue_pass!(36)
 attendee.revoke_pass!
 attendee.pass_id
 
